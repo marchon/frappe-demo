@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include interventions_management *.css
+recursive-include interventions_management *.csv
+recursive-include interventions_management *.html
+recursive-include interventions_management *.ico
+recursive-include interventions_management *.js
+recursive-include interventions_management *.json
+recursive-include interventions_management *.md
+recursive-include interventions_management *.png
+recursive-include interventions_management *.py
+recursive-include interventions_management *.svg
+recursive-include interventions_management *.txt
+recursive-exclude interventions_management *.pyc
